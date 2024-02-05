@@ -1,0 +1,14 @@
+.footer-icons i {
+  color: #fff;
+  font-size: 1.1rem;
+  border: 1px solid #fff;
+  padding: .6rem;
+  border-radius: 50%;
+}
+
+.footer-details {
+  background-color: var(--second-color);
+}
+.footer-content {
+  background-color: #1a252f;
+}

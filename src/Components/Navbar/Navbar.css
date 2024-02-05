@@ -1,0 +1,15 @@
+.navbar {
+  background-color: var(--second-color);
+}
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+.active {
+  background-color: var(--main-color) !important;
+}
+
+.nav-link {
+  display: inline;
+}

@@ -1,0 +1,30 @@
+.portfolio-container {
+  padding-top: 8.5rem;
+  padding-bottom: 3rem;
+}
+
+
+.portfolio-line {
+  height: 4px;
+  width: 80px;
+  background-color: rgb(44, 62, 80);
+}
+
+.portfolio-line + i {
+  color: rgb(44, 62, 80);
+}
+
+.item-overlay {
+  cursor: pointer;
+  background-color: #1abc9ce6;
+  transition: all 0.6s;
+  opacity: 0;
+}
+
+.item:hover .item-overlay {
+  opacity: 1;
+}
+
+.overlay-icon {
+  font-size: 5rem;
+}

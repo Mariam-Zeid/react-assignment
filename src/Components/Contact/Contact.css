@@ -1,0 +1,68 @@
+.contact-container {
+  padding-top: 8.5rem;
+  padding-bottom: 3rem;
+}
+
+.wrapper {
+  padding-top: 100px;
+  max-width: 550px;
+}
+
+.wrapper .input-data {
+  height: 40px;
+  width: 100%;
+  position: relative;
+}
+
+.wrapper .input-data input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #dee2e6;
+  font-size: 17px;
+  transition: all 0.3s ease;
+}
+
+.wrapper .input-data label {
+  position: absolute;
+  left: 0;
+  bottom: 20%;
+  color: #888;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.wrapper .input-data .contact-input:valid ~ label,
+.wrapper .input-data .contact-input:focus ~ label {
+  transform: translateY(-120%);
+  font-size: 15px;
+  color: var(--main-color);
+}
+
+.wrapper .input-data .underline {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+}
+
+.wrapper .input-data .underline::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: var(--main-color);
+  transform: scaleX(0);
+  transition: all 0.3s ease;
+}
+
+.wrapper .input-data .contact-input:valid ~ .underline::before,
+.wrapper .input-data .contact-input:focus ~ .underline::before {
+  transform: scaleX(1);
+}
+
+
+.contact-btn {
+  background-color: var(--main-color);
+}

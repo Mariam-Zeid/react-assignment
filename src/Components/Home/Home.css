@@ -1,0 +1,8 @@
+.home-container {
+  background-color: var(--main-color);
+}
+
+.home-container img {
+  width: 15.625rem;
+}
+
